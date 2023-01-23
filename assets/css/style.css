@@ -1,5 +1,39 @@
-h1 {
-  color: green;
+section {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+}
+section form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 50vw;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+section form article {
+  width: 20vw;
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+section form article h1 {
+  text-align: center;
+  color: yellowgreen;
+}
+
+.h1 {
+  width: 40vw;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+.output {
+  width: 40vw;
+}
+
+.range, .select, .text {
+  width: 20vw;
 }
 
 /*# sourceMappingURL=style.css.map */

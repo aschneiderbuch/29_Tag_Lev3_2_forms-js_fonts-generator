@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,50 @@
         sass --watch assets/scss/main.scss assets/css/style.css
      -->
 </head>
-<body>
-    <h1>test</h1>
-    
 
+<body>
+
+    <section>
+
+        <form action="" onsubmit="return false" event.preventdefault()>
+            <article class="h1">
+                <h1>Fonts Generator</h1>
+            </article>
+
+
+            <article class="range">
+                <label for="inputFontSize">Schriftgröße in rem: </label>
+                <input type="range" name="inputFontSize" id="inputFontSize" value="1" min="0" max="5">
+            </article>
+
+            <article class="select">
+                <label for="inputFontFamily">Font-Family</label>
+                <select name="inputFontFamily" id="inputFontFamily">
+                    <option value="bodoniModa">1. Bodoni Moda</option>
+                    <option value="openSans">2. Open Sans</option>
+                    <option value="roboto" selected>3. Roboto</option>
+                    <option value="yuseiMagic">4. Yusei Magic</option>
+            </article>
+
+            <article class="text">
+                <label for="inputText">Text</label>
+                <input type="text" name="inputText" id="inputText" placeholder="schreib hier deinen Text">
+            </article>
+
+            <article class="output">
+                <p id="outputFeld">Hier könnte dein Text stehen</p>
+            </article>
+
+            </select>
+
+
+        </form>
+
+
+    </section>
 
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
