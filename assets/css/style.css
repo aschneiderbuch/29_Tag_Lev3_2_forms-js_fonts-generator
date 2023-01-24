@@ -1,3 +1,38 @@
+@charset "UTF-8";
+/* *************** font Family einfügen ********** */
+@font-face {
+  font-family: bodoniModa;
+  src: url("../fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf");
+}
+@font-face {
+  font-family: openSans;
+  src: url("../fonts/Open_Sans_1/OpenSans-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto_3/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: yuseiMagic;
+  src: url("../fonts/Yusei_Magic/YuseiMagic-Regular.ttf");
+}
+/* *************** font aufruf ************** */
+.classFontFamilyBodoniModa {
+  font-family: bodoniModa, sans-serif;
+}
+
+.classFontFamilyOpenSans {
+  font-family: openSans, sans-serif;
+}
+
+.classFontFamilyRoboto {
+  font-family: roboto, sans-serif;
+}
+
+.classFontFamilyYuseiMagic {
+  font-family: yuseiMagic, sans-serif;
+}
+
 section {
   padding-top: 20vh;
   display: flex;
