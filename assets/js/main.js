@@ -25,6 +25,8 @@ Output Feld mit Formatiertem Text
 let inputFontSize = document.querySelector("#inputFontSize");
 let inputFontFamily = document.querySelector("#inputFontFamily");
 let inputText = document.querySelector("#inputText");
+let labelRange = document.querySelector("#labelRange");
+
 
 console.log(inputFontSize, inputFontFamily, inputText);
 
@@ -53,5 +55,8 @@ console.log(ergebnis);
 
 outputFeld.innerHTML = inputBuchstaben;
 outputFeld.style = ergebnis;
+
+labelRange.innerHTML = `Schriftgröße in rem: ${inputGröße}`;
+console.log(labelRange.innerHTML);
 
 }
